@@ -2,7 +2,7 @@
 
 This NetLogo model simulates trait-based biotic responses to climate change in an environmentally heterogeneous continent in an evolving clade, the species of which are each represented by local populations that disperse and interbreed; they also are subject to selection, genetic drift, and local extirpation. We simulated mammalian herbivores, whose success depends on tooth crown height, vegetation type, precipitation and grit. This model investigates the role of dispersal, selection, extirpation, and other factors contribute to resilience under three climate change scenarios.
 
-This model was the basis of a [publication](https://pollylab.indiana.edu/doc/Mo-and-Polly,-2022,-risk-and-resilience-to-climate-change.pdf) in Global Ecology and Biogeography.
+This model was the basis of a [publication](https://pollylab.indiana.edu/doc/Mo-and-Polly,-2022,-risk-and-resilience-to-climate-change.pdf) in Global Ecology and Biogeography. To see a full list of citations as well as the model findings, please refer to this paper.
 
 # Model overview
 This agent-based model (ABM) simulates trait-based population-level responses to
@@ -230,3 +230,5 @@ each model run.
 # How to Install and Run
 This model runs on NetLogo 6.1.1. To ensure that the model can run, first download the geography_input.txt file and modify the indicated input and output file paths in the NetLogo code to a local destination on your workstation. Next, press the **setup** button on the **Interface** tab. To run the model stepwise, press the **go once** button on the **Interface** tab. To run the model until its stopping point, press the **go** button on the **Interface** tab.
 
+# Collaborators
+P. David Polly, Professor and Chair, Department of Earth and Atmospheric Sciences

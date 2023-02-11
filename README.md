@@ -137,8 +137,10 @@ of dispersal into an individual adjacent terrestrial patch.
 
 ## Selection and genetic drift
 Each step, the trait value of each population is modified by selection:
-znew=h2vzold(i-zold)w2
-where zold is trait value before selection, θi is local selective optimum, w2
+
+z_new = (z_old(θ_i - z_old) / w^2)) * h^2 * v
+
+where z_old is trait value before selection, θi is local selective optimum, w2
 is adaptive peak width
 (equal to standard deviation of the normal curve used to model the adaptive peak), h2
 is
@@ -224,3 +226,7 @@ between 0 and 3.0, ESF = 2.0, DISP = 1.0). An alteration of Experiment D varied 
 low ESF and high dispersal (APW varies between 0 and 3.0, ESF = 1.0, DISP = 1.0). See
 Extended Results & Figure 3 for selected model output and Files S3 for detailed results on
 each model run.
+
+# How to Install and Run
+This model runs on NetLogo 6.1.1. To ensure that the model can run, first download the geography_input.txt file and modify the indicated input and output file paths in the NetLogo code to a local destination on your workstation. Next, press the **setup** button on the **Interface** tab. To run the model stepwise, press the **go once** button on the **Interface** tab. To run the model until its stopping point, press the **go** button on the **Interface** tab.
+

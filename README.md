@@ -1,8 +1,10 @@
-# evolution-climate-change
+## evolution-climate-change
 
 This NetLogo model simulates trait-based biotic responses to climate change in an environmentally heterogeneous continent in an evolving clade, the species of which are each represented by local populations that disperse and interbreed; they also are subject to selection, genetic drift, and local extirpation. We simulated mammalian herbivores, whose success depends on tooth crown height, vegetation type, precipitation and grit. This model investigates the role of dispersal, selection, extirpation, and other factors contribute to resilience under three climate change scenarios.
 
-# Model overview
+This model was the basis of a [publication](https://pollylab.indiana.edu/doc/Mo-and-Polly,-2022,-risk-and-resilience-to-climate-change.pdf) in Global Ecology and Biogeography.
+
+## Model overview
 This agent-based model (ABM) simulates trait-based population-level responses to
 climatic and environmental change. The premise of ABMs lies in the principle that micro-level
 agent-agent and agent-environment interactions produce emergent macro-level outcomes for
@@ -194,7 +196,7 @@ if the dispersal rate is high enough. Rate of dispersal affects the likelihood o
 because it determines the number of times a population ventures into a cell where it has low
 fitness. The only impassible physical barriers are the oceans at the continental margins.
 
-# Climate change modeling
+## Climate change modeling
 
 # Climate change mechanics
 We modeled three scenarios of climate change (gradual, moderate, and rapid) by altering
@@ -211,7 +213,7 @@ floored at 0 cm per year. During climate change events, each patch’s biome typ
 using the previously described method. Then, the ideal trait value of each patch is also
 recalculated.
 
-# Experiments
+## Experiments
 We conducted four experiments varying demographic parameters, each repeated across
 three different climate change scenarios. Experiment A varied dispersal with consistently high
 extirpation (DISP varies between 0 and 1.0, APW = 1.0, ESF = 2.0). Experiment B varied

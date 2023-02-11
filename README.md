@@ -232,3 +232,6 @@ This model runs on NetLogo 6.1.1. To ensure that the model can run, first downlo
 
 # Collaborators
 P. David Polly, Professor and Chair, Department of Earth and Atmospheric Sciences
+
+# License
+Distributed under the MIT License.

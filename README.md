@@ -1,5 +1,6 @@
 # evolution-climate-change
-This agent-based model simulates trait-based biotic responses of an evolving clade to climate change in an environmentally heterogeneous continent.
+
+This NetLogo model simulates trait-based biotic responses to climate change in an environmentally heterogeneous continent in an evolving clade, the species of which are each represented by local populations that disperse and interbreed; they also are subject to selection, genetic drift, and local extirpation. We simulated mammalian herbivores, whose success depends on tooth crown height, vegetation type, precipitation and grit. This model investigates the role of dispersal, selection, extirpation, and other factors contribute to resilience under three climate change scenarios.
 
 # Model overview
 This agent-based model (ABM) simulates trait-based population-level responses to
